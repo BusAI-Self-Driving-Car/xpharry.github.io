@@ -17,10 +17,3 @@ View an example one-pager [here](http://chuckgroom.com/onepage-bio/)
  - Edit `_config.yml` to give your name, email address, social media contacts, etc. You can also update the color scheme.
  - Edit content in `/_includes/about_me.html` and `/_includes/interests.html`
 
-## Screenshot
-
-![screenshot](https://raw.githubusercontent.com/chuckgroom/onepage-bio/master/screenshot.png)
-
-## Jekyll
-
-For more details on Jekyll, read the [documentation](http://jekyllrb.com/).
