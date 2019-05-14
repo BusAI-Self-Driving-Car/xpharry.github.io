@@ -96,22 +96,22 @@
 
 
 
-  <meta name="description" content="RoverPi小车 第二篇：硬件选型这一篇主要解决几个问题： １．计算单元２．运动单元驱动３．供电４．机械固定 也就是说，除了小车车身，Lidar和Web Camera全部是来自新的组件．其实，仅就这几样而言也说不上很满意，只是为了尽可能得把现有组件利用起来．  车身就是普通的铝合金底盘和四个轮子，在某宝或者亚马逊逊上可以找到很多替代； Lidar看起来是个仿品，山寨的一代RPLidar，建议大家">
+  <meta name="description" content="RoverPi小车 第二篇：硬件选型这一篇主要解决几个问题： １．计算单元２．运动单元驱动３．供电４．机械固定 也就是说，除了小车车身，Lidar和Web Camera全部是来自新的组件．其实，仅就这几样而言也说不上很满意，只是为了尽可能得把现有组件利用起来．">
 <meta property="og:type" content="article">
 <meta property="og:title" content="RoverPi小车 第二篇：硬件选型">
 <meta property="og:url" content="http://casperwin.me/2019/05/14/RoverPi小车_第二篇_硬件选型/index.html">
 <meta property="og:site_name" content="Casper的技术博客">
-<meta property="og:description" content="RoverPi小车 第二篇：硬件选型这一篇主要解决几个问题： １．计算单元２．运动单元驱动３．供电４．机械固定 也就是说，除了小车车身，Lidar和Web Camera全部是来自新的组件．其实，仅就这几样而言也说不上很满意，只是为了尽可能得把现有组件利用起来．  车身就是普通的铝合金底盘和四个轮子，在某宝或者亚马逊逊上可以找到很多替代； Lidar看起来是个仿品，山寨的一代RPLidar，建议大家">
+<meta property="og:description" content="RoverPi小车 第二篇：硬件选型这一篇主要解决几个问题： １．计算单元２．运动单元驱动３．供电４．机械固定 也就是说，除了小车车身，Lidar和Web Camera全部是来自新的组件．其实，仅就这几样而言也说不上很满意，只是为了尽可能得把现有组件利用起来．">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://www.raspberrypi.org/magpi/wp-content/uploads/2017/04/Raspberry-Pi-3.jpg">
 <meta property="og:image" content="http://fritzing.org/media/fritzing-repo/projects/w/working-with-l298n-dc-motor-driver/images/Dual-H-Bridge-DC-Stepper-Motor-Drive-Controller-Board-Module-Arduino-L298N-HE2.jpg">
 <meta property="og:image" content="https://paper-attachments.dropbox.com/s_F2F5BA21703E8CFE0F69C6C645220F346DE5C1561E56AE695BBFC0012CFC9BA8_1557718528861_718PGO1TDgL._SL1500_.jpg">
 <meta property="og:image" content="https://www.dropbox.com/s/k6q54nuwmnef8q2/IMG_20190512_204935.jpg?raw=1">
 <meta property="og:image" content="https://paper-attachments.dropbox.com/s_F2F5BA21703E8CFE0F69C6C645220F346DE5C1561E56AE695BBFC0012CFC9BA8_1557718939652_IMG_1659.JPG">
-<meta property="og:updated_time" content="2019-05-14T18:02:32.500Z">
+<meta property="og:updated_time" content="2019-05-14T18:08:47.597Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="RoverPi小车 第二篇：硬件选型">
-<meta name="twitter:description" content="RoverPi小车 第二篇：硬件选型这一篇主要解决几个问题： １．计算单元２．运动单元驱动３．供电４．机械固定 也就是说，除了小车车身，Lidar和Web Camera全部是来自新的组件．其实，仅就这几样而言也说不上很满意，只是为了尽可能得把现有组件利用起来．  车身就是普通的铝合金底盘和四个轮子，在某宝或者亚马逊逊上可以找到很多替代； Lidar看起来是个仿品，山寨的一代RPLidar，建议大家">
+<meta name="twitter:description" content="RoverPi小车 第二篇：硬件选型这一篇主要解决几个问题： １．计算单元２．运动单元驱动３．供电４．机械固定 也就是说，除了小车车身，Lidar和Web Camera全部是来自新的组件．其实，仅就这几样而言也说不上很满意，只是为了尽可能得把现有组件利用起来．">
 <meta name="twitter:image" content="https://www.raspberrypi.org/magpi/wp-content/uploads/2017/04/Raspberry-Pi-3.jpg">
 
 
@@ -417,7 +417,7 @@
                 
               
 
-              <time title="创建时间：2019-05-14 12:00:27 / 修改时间：11:02:32" itemprop="dateCreated datePublished" datetime="2019-05-14T12:00:27-07:00">2019-05-14</time>
+              <time title="创建时间：2019-05-14 12:00:27 / 修改时间：11:08:47" itemprop="dateCreated datePublished" datetime="2019-05-14T12:00:27-07:00">2019-05-14</time>
             
 
             
@@ -459,6 +459,7 @@
         <h1 id="RoverPi小车-第二篇：硬件选型"><a href="#RoverPi小车-第二篇：硬件选型" class="headerlink" title="RoverPi小车 第二篇：硬件选型"></a>RoverPi小车 第二篇：硬件选型</h1><p>这一篇主要解决几个问题：</p>
 <p>１．计算单元<br>２．运动单元驱动<br>３．供电<br>４．机械固定</p>
 <p>也就是说，除了小车车身，Lidar和Web Camera全部是来自新的组件．其实，仅就这几样而言也说不上很满意，只是为了尽可能得把现有组件利用起来．</p>
+<a id="more"></a>
 <ul>
 <li>车身就是普通的铝合金底盘和四个轮子，在某宝或者亚马逊逊上可以找到很多替代；</li>
 <li>Lidar看起来是个仿品，山寨的一代RPLidar，建议大家直接使用原版，毕竟有充分的官方软件支持。我后面会介绍到的SLAM程序也是参考自RPLidar ；</li>
@@ -666,7 +667,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
